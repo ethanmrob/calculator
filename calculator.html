@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class='main-container'>
+      <div class='container-left'>
+      <div class="calculator-container container">
+        <div class="calculator-left calculator">
+            <div id="equation">
+                <h2 id="equationText"></h2>
+            </div>
+            <div id="numbers" class="button-list">
+                <div class="number"><p id="one">1</p></div>
+                <div class="number"><p id="two">2</p></div>
+                <div class="number"><p id="three">3</p></div>
+                <div class="number"><p id="four">4</p></div>
+                <div class="number"><p id="five">5</p></div>
+                <div class="number"><p id="six">6</p></div>
+                <div class="number"><p id="seven">7</p></div>
+                <div class="number"><p id="eight">8</p></div>
+                <div class="number"><p id="nine">9</p></div>
+                <div class="number"><p id="zero">0</p></div>
+            </div>
+        </div>
+        <div class="calculator-right calculator">
+            <button type="submit" id="submitBtn" class="button">Enter</button>
+            <div id="symbols" class="button-list">
+                <div class="symbol"><p id="add">+</p></div>
+                <div class="symbol"><p id="subtract">-</p></div>
+                <div class="symbol"><p id="multiply">*</p></div>
+                <div class="symbol"><p id="divide">/</p></div>
+            </div>
+        </div>
+        
+
+    </div>
+      <div class="clear-button">
+      <button type='submit' id="clearBtn" class="button">Reset</button>
+    </div>
+    </div>
+    <div class='container-right'>
+      <div class="history-container container">
+        <h2>Previous Equations</h2>
+        <div id='equation-history'></div>
+      </div>
+     </div>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
