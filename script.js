@@ -18,7 +18,6 @@ for (let i = 0; i < symbols.length; i++) {
 }
 const submitBtn = document.getElementById('submitBtn');
 submitBtn.onclick = function() {
-    console.log(equation)
     document.getElementById('equationText').innerHTML = eval(equation).toString()
 }
 
