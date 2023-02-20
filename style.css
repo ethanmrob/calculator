@@ -37,7 +37,7 @@ body{
   width:200px;
 }
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 h5{
   font-size:0.8rem;
@@ -54,15 +54,15 @@ h5{
 #equation-history p {
   padding:10px;
   margin:0;
-  font-size:1.1rem;
+  font-size:1rem;
 }
 
 .container{
     display: inherit;
     background-color: #fff;
     border-radius: 50px;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
-    width:400px;
+    box-shadow: 0 0 10px 5px rgba(74, 68, 107, 0.1);
+    width:380px;
     padding:30px;
 }
 
@@ -84,7 +84,7 @@ h5{
 }
 #equation{
     height: 20%;
-    outline: 2px solid #cfd9df;
+    background-color:rgb(233, 235, 238);
     display: inherit;
     justify-content: center;
     align-items: center;
@@ -114,7 +114,8 @@ h5{
     border-radius: 50px;
     border: none;
     background-color:#fff;
-    outline: solid 2px rgb(86, 96, 109);
+    color: rgb(67, 75, 85);
+
 }
 #clearBtn:hover {
     cursor: pointer;
@@ -124,8 +125,6 @@ h5{
     display: inherit;
     align-items: center;
     justify-content: space-around;
-    border-radius: 23px;
-    outline: 2px solid #cfd9df;
     flex-direction: column;
     text-align: center;
     overflow: hidden;
@@ -140,10 +139,10 @@ h5{
     width:100%;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .symbol:hover{
-    background-color: rgb(245, 245, 245);
+    color: rgb(158, 160, 163);
     cursor: pointer;
 }
 #numbers {
@@ -151,17 +150,15 @@ h5{
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-radius: 23px;
-    outline: 2px solid #cfd9df;
     overflow: hidden;
 }
 .number {
     text-align: center;
     width:33%;
     background-color: rgb(255, 255, 255);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .number:hover {
-    background-color: rgb(245, 245, 245);
+    color: rgb(158, 160, 163);
     cursor: pointer;
 }
